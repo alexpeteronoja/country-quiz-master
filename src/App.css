@@ -1,0 +1,74 @@
+@import 'tailwindcss';
+body {
+    background-color: #343964;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #e2e4f3;
+}
+
+.heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.grad-color {
+    background-image: linear-gradient(#e65895, #bc6be8);
+}
+
+.container {
+    width: 400px;
+}
+
+.box {
+    background-color: #393f6e;
+    padding: 30px 80px;
+}
+
+.button-border {
+    border-radius: 10px;
+}
+
+.ans-btn {
+    background-color: #343964;
+}
+
+.selected {
+    background-color: red;
+}
+
+
+/* Congratulation Section */
+
+.congrat-box {
+    background-color: #393f6e;
+    width: 450px;
+    line-height: 4;
+}
+
+.play-btn {
+    background-image: linear-gradient(#e65895, #bc6be8);
+}
+
+@media (min-width: 998px) {
+    .box {
+        background-color: #393f6e;
+        padding: 30px 120px;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
